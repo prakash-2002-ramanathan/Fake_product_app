@@ -1,0 +1,178 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_source",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_destination",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_remark",
+				"type": "string"
+			}
+		],
+		"name": "add",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_source",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_destination",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_remark",
+				"type": "string"
+			}
+		],
+		"name": "update",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "myStructs",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "source",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "destination",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "remark",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "currentBlockTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "show",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "source",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "destination",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "remark",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "currentBlockTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"internalType": "struct Product.MyStruct[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
